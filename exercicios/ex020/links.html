@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*  SELETORES PERSONALIZADOS
+            #  =  id
+            .  =  class
+            :  =  pseudo-class
+            :: =  pseudo-element
+            >  = children
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited { /*visited é pseudo-classe que sinaliza um link que já foi visitado*/
+            color: darkred;
+        }
+
+        a:hover { /*hover é pseudo-classe para quando passar o mouse por cima do elemento*/
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active { /*active é pseudo-classe para quando interagir com o elemento (clicar)*/
+            color: yellow;
+        }
+
+        .especial{
+            background-color: rgba(0, 255, 255, 0.445);
+        }
+
+        .especial::before {
+            content: '\21D2';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+       .especial::after {
+            content: '\21D0  [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/mitchelinoue" target="_blank">Repositório Github</a></li>
+        <li><a href="https://www.youtube.com/channel/UCTtakdPDXNJhddT1W3Izr2Q/featured" target="_blank" class="especial">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com/minha-conta/" target="_blank">Site Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>
