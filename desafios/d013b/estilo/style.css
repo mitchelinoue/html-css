@@ -37,7 +37,7 @@ iframe{
     box-shadow: inset 0px 0px 2px 3px rgba(0, 0, 0, 0.466);
     border: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.514);
     border-radius: 5px;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-49.8%, -48.8%);
@@ -46,23 +46,24 @@ iframe{
     height: 466px;
 }
 
+section#redes-sociais {
+    text-align: right;
+
+}
+
 img{
-    background-color: transparent;
-    border: 2px solid transparent;
-    height: 50px;
+    box-sizing: border-box;
     width: 50px;
     border-radius: 50%;
     margin: 10px;
     
-    display: block;
-    margin-left: auto;
     
 }
 
 img:hover{
-    border: 2px solid white;
+    border: 2px solid rgb(180, 180, 180);
     transform: translateX(-3px) translateY(-3px);
     box-shadow: 5px 5px 9px 1px rgba(0, 0, 0, 0.322);
-    transition: 0.4s, border 0.5s;
+    transition: 0.4s, border 0.2s;
    
 }
