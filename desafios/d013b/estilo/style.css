@@ -40,10 +40,10 @@ iframe{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-49.7%, -49.3%);
+    transform: translate(-49.8%, -48.8%);
     
-    width: 267px;
-    height: 473px;
+    width: 264.5px;
+    height: 466px;
 }
 
 img{
@@ -51,8 +51,8 @@ img{
     border: 2px solid transparent;
     height: 50px;
     width: 50px;
-    border-radius: 50px;
-    margin: 15px;
+    border-radius: 50%;
+    margin: 10px;
     
     display: block;
     margin-left: auto;
@@ -63,6 +63,6 @@ img:hover{
     border: 2px solid white;
     transform: translateX(-3px) translateY(-3px);
     box-shadow: 5px 5px 9px 1px rgba(0, 0, 0, 0.322);
-    transition: 0.5s;
+    transition: 0.4s, border 0.5s;
    
 }
