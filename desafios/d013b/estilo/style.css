@@ -36,13 +36,13 @@ iframe{
    
     box-shadow: inset 0px 0px 2px 3px rgba(0, 0, 0, 0.466);
     border: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.514);
-    border-radius: 6px;
+    border-radius: 5px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-49.7%, -49.3%);
     
-    width: 268px;
+    width: 267px;
     height: 473px;
 }
 
